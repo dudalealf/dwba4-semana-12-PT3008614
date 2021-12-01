@@ -1,0 +1,26 @@
+table{
+  width: 100%;
+}
+
+.componentes {
+  font-family: arial;
+  text-align: center;
+}
+
+th {
+  background-color: #22a144;
+  color: #fff;
+}
+
+td, th {
+  border:  1px solid #d1d1d1;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #ededed;
+}
+
+tr:nth-child(even):hover  {
+  background-color: #d1d1d1;
+}
